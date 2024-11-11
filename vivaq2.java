@@ -7,13 +7,15 @@ public class vivaq2 {
      Scanner input = new Scanner(System.in);
      
      //This section ask for the starting value using scanner
-     System.out.println("Enter the starting value: ");
+     System.out.print("Enter the starting value: ");
      int start = input.nextInt();
      
      //This section ask for the ending value using scanner
-     System.out.println("Enter the ending value: ");
+     System.out.print("Enter the ending value: ");
      int end = input.nextInt();
 
+     //creates a new line
+     System.out.println("");
      System.out.println("The output is: ");
      //this is a for loop statement
      //the i is initialized with the starting value 
