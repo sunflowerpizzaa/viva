@@ -13,7 +13,8 @@ public class vivaq2 {
      //This section ask for the ending value using scanner
      System.out.println("Enter the ending value: ");
      int end = input.nextInt();
-     
+
+     System.out.println("The output is: ");
      //this is a for loop statement
      //the i is initialized with the starting value 
      //and it will end when it reaches the ending value
